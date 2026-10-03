@@ -1,21 +1,45 @@
-# Legal and limits
+# Legal and limits / Marco legal y límites
 
 ## English
 
-The project agreement explicitly says Casa Firme does not comply with or anchor itself to any legal or regulatory standard. It notes that a Chilean law may connect presence in a June 2024 register to a right, but the primary text was not read for this project. The agreement therefore does not name that law as a design anchor and labels the matter `NO VERIFICADO`. We do not identify or summarize that law here.
+Casa Firme is a fictional local walkthrough. It does not claim compliance with, or rely on, a legal or regulatory standard. Project planning mentions that Chilean law may connect a June 2024 register to a right, but the primary text was not read for this project. The project therefore does not identify that law as a design basis or make a legal eligibility claim.
 
-No competent legal professional has reviewed this project. The project is not presented as a legal eligibility determination, housing registry, donation manager, or institutionally adopted process. A simulated register field is not evidence of a person's right to housing.
+No legal professional has reviewed this project. It is not a housing registry, an eligibility determination, a donation-management service or an institutionally adopted process. A simulated register field does not establish that a person has a right to housing.
 
-The design has limits beyond law. Its data are synthetic examples only. There are no real family details, real registry data, national identity numbers, addresses, phone numbers or birth dates. The sample institution and donation flow do not represent participation by a real foundation, municipality, laboratory or other organization. There are no real payments, custody, network calls or blockchain anchors. The zero-knowledge proof is simulated and the receipt anchor remains pending.
+## Family data and privacy
 
-Open questions include what legal authority, if any, could govern eligibility in a real deployment; what process could lawfully validate a real register; who would hold responsibility for family data and access; and what consent, retention, correction and deletion process would be appropriate. These are questions for qualified legal and domain review, not claims answered by this prototype.
+The examples use synthetic data. There are no real family details, registry records, national identity numbers, addresses, phone numbers or birth dates. In the model, the family is represented by an alias and a fingerprint, and the record schema rejects undeclared fields. The supplied run checks the local record and the payload described as publishable.
+
+That check is limited to the supplied schema, data and local run. It does not establish privacy in a deployed system, anonymity against every observer, secure storage, consent, retention, correction, deletion or protection against information inferred from other data. A real service would need a defined owner for family records, access controls, lawful validation and an appropriate data lifecycle, all reviewed by qualified people.
+
+## Actors and external effects
+
+The committee, volunteers, foundation, municipality, donor and family in the journey are examples. The example foundation is named `fundacion-1`; it does not represent a real organization. No organization, institution, laboratory or third party participates in the recorded journey.
+
+The effect is local and reversible in the supplied walkthrough. There are no real payments, funds, custody, network calls, blockchain transactions or Stellar testnet anchors. The receipt anchor is `pending`, with no transaction hash to inspect. The zero-knowledge proof is simulated and does not prove registry membership.
+
+## Open questions
+
+A real deployment would require qualified review of the legal basis for eligibility, any lawful method for validating a registry, responsibility for family data and access, and appropriate consent, retention, correction and deletion practices. The supplied project does not answer those questions. It also does not show that the modeled allocation of authority matches how any real community or institution operates.
 
 ## Español
 
-El acuerdo del proyecto dice expresamente que Casa Firme no cumple ni se ancla a ninguna norma legal o regulatoria. Señala que una ley chilena podría vincular la pertenencia a un catastro de junio de 2024 con un derecho, pero que el texto primario no se leyó para este proyecto. Por ello, el acuerdo no nombra esa ley como ancla de diseño y etiqueta el asunto como `NO VERIFICADO`. Aquí no identificamos ni resumimos esa ley.
+Casa Firme es un recorrido local y ficticio. No afirma cumplir ni se basa en una norma legal o regulatoria. La planificación del proyecto menciona que una ley chilena podría vincular un catastro de junio de 2024 con un derecho, pero el texto primario no se leyó para este proyecto. Por eso no se identifica esa ley como base de diseño ni se afirma una elegibilidad legal.
 
-Ninguna persona competente en derecho ha revisado este proyecto. No se presenta como una determinación legal de elegibilidad, sistema de catastro, gestor de donaciones ni proceso adoptado por instituciones. Un campo de catastro simulado no demuestra que una persona tenga derecho a vivienda.
+Ningún profesional del derecho ha revisado este proyecto. No es un sistema de catastro, una determinación de elegibilidad, un servicio de gestión de donaciones ni un proceso adoptado por una institución. Un campo de catastro simulado no demuestra que una persona tenga derecho a vivienda.
 
-El diseño tiene límites que van más allá de lo jurídico. Los datos son solo ejemplos sintéticos. No hay detalles de familias reales, datos de catastros reales, números de identidad, domicilios, teléfonos ni fechas de nacimiento. La institución y el flujo de donaciones de ejemplo no representan la participación de una fundación, municipalidad, laboratorio ni otra organización real. No hay pagos reales, custodia, llamadas de red ni anclajes en blockchain. La prueba de conocimiento cero está simulada y el anclaje del recibo sigue pendiente.
+## Datos familiares y privacidad
 
-Entre las preguntas abiertas están qué autoridad jurídica, si alguna, podría regir la elegibilidad en un despliegue real; qué proceso podría validar legalmente un catastro real; quién respondería por los datos de las familias y su acceso; y qué procesos de consentimiento, retención, rectificación y eliminación serían adecuados. Son preguntas para una revisión jurídica y especializada, no afirmaciones que este prototipo haya resuelto.
+Los ejemplos usan datos sintéticos. No contienen detalles de familias reales, registros de catastros, números de identidad, domicilios, teléfonos ni fechas de nacimiento. En el modelo, la familia se representa con un alias y una huella, y el esquema del registro rechaza los campos no declarados. La corrida suministrada revisa el registro local y el contenido descrito como publicable.
+
+Esa comprobación se limita al esquema, los datos y la corrida local suministrados. No establece privacidad en un sistema desplegado, anonimato ante toda persona observadora, almacenamiento seguro, consentimiento, retención, rectificación, eliminación ni protección frente a información inferida de otros datos. Un servicio real necesitaría definir quién responde por los registros familiares, los controles de acceso, la validación lícita y un ciclo de vida apropiado de los datos, con revisión de personas competentes.
+
+## Actores y efectos externos
+
+El comité, los voluntarios, la fundación, la municipalidad, el donante y la familia del recorrido son ejemplos. La fundación del ejemplo se llama `fundacion-1`; no representa a una organización real. Ninguna organización, institución, laboratorio o tercera parte participa en el recorrido registrado.
+
+El efecto del recorrido suministrado es local y reversible. No hay pagos reales, fondos, custodia, llamadas de red, transacciones en blockchain ni anclajes en Stellar testnet. El anclaje del recibo está en `pending` y no hay un hash de transacción para consultar. La prueba de conocimiento cero está simulada y no demuestra pertenencia a un catastro.
+
+## Preguntas abiertas
+
+Un despliegue real requeriría revisar con personas competentes la base jurídica de la elegibilidad, cualquier método lícito de validación de un catastro, la responsabilidad por los datos familiares y su acceso, y prácticas adecuadas de consentimiento, retención, rectificación y eliminación. El proyecto suministrado no responde esas preguntas. Tampoco demuestra que la distribución de autoridad modelada coincida con la operación de una comunidad o institución real.
