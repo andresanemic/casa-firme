@@ -149,6 +149,8 @@ There is no network call, real payment, custody, blockchain transaction, Stellar
 
 Read [How it works](./docs/HOW_IT_WORKS.md) for the model, actors and example; [Evidence](./docs/EVIDENCE.md) for current results and what they prove; [Legal and limits](./docs/LEGAL_AND_LIMITS.md) for the unverified legal context and data boundaries; and [Code not included](./CODE_NOT_INCLUDED.md) for the source-release conditions. The [review-only license](./LICENSE) governs evaluation rights. The public record is documentation, not a runnable copy of the application.
 
+The public project documents do not confirm whether the application source will be available during the judges' review period or give an availability date. See [Code not included](./CODE_NOT_INCLUDED.md) for the current publication conditions.
+
 ## Author
 
 **Andrés Peña Mellado**, Digital Art Director & Creative Developer working across AI agents, Web3, design and research. Repository authority: `andresanemic`.
@@ -269,7 +271,7 @@ La decisión de la asamblea marca el límite de autoridad. Un miembro no puede o
 
 | Necesitas | Qué te entrega | Dónde está |
 |---|---|---|
-| Saber quién tuvo autoridad para aprobar un paso | Acta, quorum con nombres y permisos distintos para construir y entregar | [Cómo funciona: autoridad y actores](./docs/HOW_IT_WORKS.md#actores-derechos-y-limites) |
+| Saber quién tuvo autoridad para aprobar un paso | Acta, quorum con nombres y permisos distintos para construir y entregar | [Cómo funciona: autoridad y actores](./docs/HOW_IT_WORKS.md#actores-derechos-y-límites) |
 | Impedir que un permiso delegado crezca | Un permiso de cuatro unidades no se amplía a nueve; el intento vuelve bloqueado | [Cómo funciona: reglas de permisos](./docs/HOW_IT_WORKS.md#reglas-de-permisos) |
 | Seguir un aporte hasta su uso registrado | Un aporte ficticio de diez unidades, un uso de tres y recibos que el donante puede leer | [Evidencia: el recorrido suministrado](./docs/EVIDENCE.md#el-recorrido-suministrado) |
 | Mantener a la familia fuera de la vista del donante | Esquema cerrado, alias y huella; la corrida revisa qué se publicaría | [Marco legal y límites](./docs/LEGAL_AND_LIMITS.md#datos-familiares-y-privacidad) |
@@ -297,6 +299,8 @@ No hay llamadas de red, pagos reales, custodia, transacción en blockchain, ancl
 ## Cómo revisar el proyecto
 
 Lee [Cómo funciona](./docs/HOW_IT_WORKS.md) para conocer el modelo, los actores y el ejemplo; [Evidencia](./docs/EVIDENCE.md) para revisar los resultados actuales y su alcance; [Marco legal y límites](./docs/LEGAL_AND_LIMITS.md) para conocer el contexto jurídico no verificado y las fronteras de los datos; y [Código no incluido](./CODE_NOT_INCLUDED.md) para las condiciones de publicación del código. La [licencia de solo revisión](./LICENSE) define los derechos de evaluación. El registro público es documentación, no una copia ejecutable de la aplicación.
+
+Los documentos públicos del proyecto no confirman si el código fuente de la aplicación estará disponible durante el periodo de evaluación ni indican una fecha. Consulta [Código no incluido](./CODE_NOT_INCLUDED.md) para conocer las condiciones de publicación actuales.
 
 ## Autoría
 
