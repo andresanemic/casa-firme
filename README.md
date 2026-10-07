@@ -8,6 +8,7 @@
   <a href="./docs/EVIDENCE.md"><img src="https://img.shields.io/badge/suite-21_of_24-D7B698?style=for-the-badge&labelColor=07111A" alt="Suite: 21 of 24"></a>
   <a href="./docs/HOW_IT_WORKS.md"><img src="https://img.shields.io/badge/agreement-written_before_code-E0C170?style=for-the-badge&labelColor=07111A" alt="Agreement written before code"></a>
   <a href="https://github.com/andresanemic/vespi"><img src="https://img.shields.io/badge/built_with-Vespi--Lore_Plugin-E0C170?style=for-the-badge&labelColor=07111A" alt="Built with Vespi and Lore Plugin"></a>
+  <a href="https://github.com/andresanemic/vespi/tree/ed559e83c976dd6e6a379a5510db776206f670b4"><img src="https://img.shields.io/badge/kernel-0.1.5_candidate-ed559e8?style=for-the-badge&labelColor=07111A&color=E0C170" alt="Kernel: 0.1.5 candidate (commit ed559e8)"></a>
 </p>
 
 <p align="center"><b>A housing application should not have to surrender a family's identity to prove what happened.</b><br>Un recorrido de vivienda donde la autoridad empieza en la asamblea y cada paso deja recibo.</p>
@@ -137,7 +138,7 @@ One failing check cannot find the pinned kernel copy at the expected Claude host
 
 ## Casa Firme, Vespi and Lore Plugin
 
-Casa Firme consumes the Vespi kernel for bounded authority, named human approvals, operation receipts, verification and continuity from receipts. Its own layer supplies the housing-committee assembly as the authority source, quorum and member rules, the fictional donation path, the local chained record and the closed family-field schema. The kernel is pinned and checked by digest; Casa Firme does not modify it.
+Casa Firme consumes the Vespi kernel for bounded authority, named human approvals, operation receipts, verification and continuity from receipts. Its own layer supplies the housing-committee assembly as the authority source, quorum and member rules, the fictional donation path, the local chained record and the closed family-field schema. The kernel is pinned and checked by digest; Casa Firme does not modify it. The project targets kernel **0.1.5 candidate** (commit `ed559e8`); the re-pinned digest table will be committed once the kernel release is confirmed.
 
 Lore Plugin provides the project context and routing through which a host can load the right criteria. It does not provide the housing model. Details about which capabilities this project uses, and which are only declared or absent, are in [How it works](./docs/HOW_IT_WORKS.md#what-the-kernel-contributes).
 
@@ -288,7 +289,7 @@ Una prueba fallida no encuentra la copia fijada del núcleo en la ruta esperada 
 
 ## Casa Firme, Vespi y Lore Plugin
 
-Casa Firme consume el núcleo de Vespi para autoridad acotada, aprobaciones humanas identificadas, recibos de operación, verificación y continuidad desde recibos. Su propia capa aporta la asamblea del comité de vivienda como origen de autoridad, las reglas de quorum y membresía, el recorrido ficticio de la donación, el registro local encadenado y el esquema cerrado de datos familiares. El núcleo se fija y comprueba por digest; Casa Firme no lo modifica.
+Casa Firme consume el núcleo de Vespi para autoridad acotada, aprobaciones humanas identificadas, recibos de operación, verificación y continuidad desde recibos. Su propia capa aporta la asamblea del comité de vivienda como origen de autoridad, las reglas de quorum y membresía, el recorrido ficticio de la donación, el registro local encadenado y el esquema cerrado de datos familiares. El núcleo se fija y comprueba por digest; Casa Firme no lo modifica. El proyecto apunta al kernel **0.1.5 candidato** (commit `ed559e8`); la tabla de digest fijada se commiteará una vez confirmado el release del kernel.
 
 Lore Plugin aporta el contexto y el enrutamiento del proyecto para que el host pueda cargar el criterio correspondiente. No aporta el modelo de vivienda. [Cómo funciona](./docs/HOW_IT_WORKS.md#que-aporta-el-nucleo) explica qué capacidades se usan, cuáles solo se declaran y cuáles están ausentes.
 
