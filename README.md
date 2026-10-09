@@ -171,8 +171,6 @@ The public project documents do not confirm whether the application source will 
 <details>
 <summary><b>Leer en español</b></summary>
 
-<p align="center"><b>Postulamos a la hackatón Find Your Way y planeamos participar en Meridian.</b></p>
-
 <a id="espanol"></a>
 
 <p align="center"><b>Casa Firme</b> — una familia que postula a una vivienda no debería entregar su identidad para probar qué pasó.<br>
