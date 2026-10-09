@@ -1,6 +1,8 @@
-[![Casa Firme](./assets/cover.png)](./assets/cover.png)
+<p align="center">
+  <a href="./assets/cover.png"><img src="./assets/cover.png" alt="Casa Firme" width="100%"></a>
+</p>
 
-# Casa Firme
+<h1 align="center">Casa Firme</h1>
 
 <p align="center">
   <a href="#english"><img src="https://img.shields.io/badge/status-local_vertical_walk-D7B698?style=for-the-badge&labelColor=07111A" alt="Status: local vertical walk"></a>
@@ -14,7 +16,14 @@
 <p align="center"><b>Casa Firme</b> — a family applying for housing should not have to hand over its identity to prove what happened.<br>
 Limited permissions, a separate check, and limits on how the family's data is used. Evidence: 24/24 tests. Fictional families and data.</p>
 
-<p align="center"><b>A housing application should not have to surrender a family's identity to prove what happened.</b><br>Un recorrido de vivienda donde la autoridad empieza en la asamblea y cada paso deja recibo.</p>
+<p align="center"><b>A housing application should not have to surrender a family's identity to prove what happened.</b></p>
+
+
+
+<p align="center"><b>We’re applying to the Find Your Way hackathon and plan to participate in Meridian.</b></p>
+<p align="center"><b>For judges:</b> <a href="./docs/HOW_IT_WORKS.md">How it works</a> · <a href="./docs/EVIDENCE.md">Evidence</a> · <a href="./docs/LEGAL_AND_LIMITS.md">Limits</a> · <a href="./CODE_NOT_INCLUDED.md">Source and review terms</a>.<br>This public snapshot contains documentation and evidence, not runnable source.</p>
+
+---
 
 <details>
 <summary><b>Read in English</b></summary>
@@ -34,16 +43,6 @@ Casa Firme follows one fictional housing application from the committee assembly
 In an informal settlement, a home can depend on people who do not answer to one another: the community, its housing committee, volunteers, a foundation, a municipality, the State and donors. The family may be asked to prove eligibility; the committee may be expected to speak for the community; work may begin under an unclear mandate; and a contribution can disappear into a sequence no donor can follow. The same journey can expose the people it is meant to help.
 
 Casa Firme turns those tensions into a local example with explicit boundaries. The assembly's recorded decision is the source of authority. Every permission states what it covers, how much it allows, where it applies and when it expires. The family is represented by an alias and a fingerprint in a closed record schema. Each step adds a receipt so the recorded use can be followed back to the contribution.
-
-## If you are judging Find Your Way or Meridian, start here
-
-Read the project foundation and its walkthrough. Start with [How it works](./docs/HOW_IT_WORKS.md).
-
-Open the test record. See [Evidence](./docs/EVIDENCE.md).
-
-Read the legal and verification limits. See [Legal and limits](./docs/LEGAL_AND_LIMITS.md).
-
-Review the publication conditions. See [Code not included](./CODE_NOT_INCLUDED.md) and the [review-only license](./LICENSE).
 
 ## In one minute
 
@@ -172,10 +171,12 @@ The public project documents do not confirm whether the application source will 
 <details>
 <summary><b>Leer en español</b></summary>
 
+<p align="center"><b>Postulamos a la hackatón Find Your Way y planeamos participar en Meridian.</b></p>
+
 <a id="espanol"></a>
 
 <p align="center"><b>Casa Firme</b> — una familia que postula a una vivienda no debería entregar su identidad para probar qué pasó.<br>
-Permisos limitados, una comprobación aparte y límites al uso de los datos de la familia. Evidencia: 24/24 pruebas. Familias y datos ficticios.</p>
+Permisos limitados, una comprobación aparte y límites al uso de los datos de la familia. Evidencia: 24/24 pruebas. Familias y datos ficticios.<br>Un recorrido de vivienda donde la autoridad empieza en la asamblea y cada paso deja recibo.</p>
 
 **Antes de construir una vivienda, la autoridad debe poder verse.**
 
