@@ -12,9 +12,7 @@
 </p>
 
 <p align="center"><b>Casa Firme</b> — a family applying for housing should not have to hand over its identity to prove what happened.<br>
-Limited permissions, a separate check, and limits on how the family's data is used. Evidence: 24/24 tests. Fictional families and data.<br>
-<b>Casa Firme</b> — una familia que postula a una vivienda no debería entregar su identidad para probar qué pasó.<br>
-Permisos limitados, una comprobación aparte y límites al uso de los datos de la familia. Evidencia: 24/24 pruebas. Familias y datos ficticios.</p>
+Limited permissions, a separate check, and limits on how the family's data is used. Evidence: 24/24 tests. Fictional families and data.</p>
 
 <p align="center"><b>A housing application should not have to surrender a family's identity to prove what happened.</b><br>Un recorrido de vivienda donde la autoridad empieza en la asamblea y cada paso deja recibo.</p>
 
@@ -175,6 +173,9 @@ The public project documents do not confirm whether the application source will 
 <summary><b>Leer en español</b></summary>
 
 <a id="espanol"></a>
+
+<p align="center"><b>Casa Firme</b> — una familia que postula a una vivienda no debería entregar su identidad para probar qué pasó.<br>
+Permisos limitados, una comprobación aparte y límites al uso de los datos de la familia. Evidencia: 24/24 pruebas. Familias y datos ficticios.</p>
 
 **Antes de construir una vivienda, la autoridad debe poder verse.**
 
