@@ -11,6 +11,11 @@
   <a href="https://github.com/andresanemic/vespi/tree/ed559e83c976dd6e6a379a5510db776206f670b4"><img src="https://img.shields.io/badge/kernel-0.1.5_release-ed559e8?style=for-the-badge&labelColor=07111A&color=E0C170" alt="Kernel: 0.1.5 release (commit ed559e8)"></a>
 </p>
 
+<p align="center"><b>Casa Firme</b> — a family applying for housing should not have to hand over its identity to prove what happened.<br>
+Limited permissions, a separate check, and limits on how the family's data is used. Evidence: 24/24 tests. Fictional families and data.<br>
+<b>Casa Firme</b> — una familia que postula a una vivienda no debería entregar su identidad para probar qué pasó.<br>
+Permisos limitados, una comprobación aparte y límites al uso de los datos de la familia. Evidencia: 24/24 pruebas. Familias y datos ficticios.</p>
+
 <p align="center"><b>A housing application should not have to surrender a family's identity to prove what happened.</b><br>Un recorrido de vivienda donde la autoridad empieza en la asamblea y cada paso deja recibo.</p>
 
 <details>
