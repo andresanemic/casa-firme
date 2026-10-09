@@ -173,9 +173,6 @@ The public project documents do not confirm whether the application source will 
 
 <a id="espanol"></a>
 
-<p align="center"><b>Casa Firme</b> — una familia que postula a una vivienda no debería entregar su identidad para probar qué pasó.<br>
-Permisos limitados, una comprobación aparte y límites al uso de los datos de la familia. Evidencia: 24/24 pruebas. Familias y datos ficticios.<br>Un recorrido de vivienda donde la autoridad empieza en la asamblea y cada paso deja recibo.</p>
-
 **Antes de construir una vivienda, la autoridad debe poder verse.**
 
 ## La unidad
