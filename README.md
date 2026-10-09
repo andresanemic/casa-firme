@@ -140,6 +140,8 @@ The 2026-10-03 capture was red under the old 0.1.3 kernel cut; the project has s
 
 Casa Firme consumes the Vespi kernel for bounded authority, named human approvals, operation receipts, verification and continuity from receipts. Its own layer supplies the housing-committee assembly as the authority source, quorum and member rules, the fictional donation path, the local chained record and the closed family-field schema. The kernel is pinned and checked by digest; Casa Firme does not modify it. The project uses kernel **0.1.5** (commit `ed559e8`), vendored and digest-checked in the 2026-10-09 run.
 
+**What this relationship means.** The project was built with Lore Plugin's method (its agreement and criterion live in the project, in `acuerdo.md` and `lore/`), and its operations, authority and receipts run on the Vespi kernel 0.1.5, in the pinned copy that Lore Plugin 2.5.1 distributes (`skills/vespi/core/kernel`). That copy sits in the project as `vendor/vespi-kernel` and the suite verifies it against its `SOURCE.md`. Lore Plugin does not run inside the project. This project does not use the kernel's newer capabilities (Stellar pubnet anchors, live x402 settlement, the ZK verifier, emergency access); it exercises the core of operations, authority and receipts.
+
 Lore Plugin provides the project context and routing through which a host can load the right criteria. It does not provide the housing model. Details about which capabilities this project uses, and which are only declared or absent, are in [How it works](./docs/HOW_IT_WORKS.md#what-the-kernel-contributes).
 
 ## What it does not do, and what is not verified
@@ -290,6 +292,8 @@ La captura del 2026-10-03 quedó en rojo con el corte viejo 0.1.3 del núcleo; e
 ## Casa Firme, Vespi y Lore Plugin
 
 Casa Firme consume el núcleo de Vespi para autoridad acotada, aprobaciones humanas identificadas, recibos de operación, verificación y continuidad desde recibos. Su propia capa aporta la asamblea del comité de vivienda como origen de autoridad, las reglas de quorum y membresía, el recorrido ficticio de la donación, el registro local encadenado y el esquema cerrado de datos familiares. El núcleo se fija y comprueba por digest; Casa Firme no lo modifica. El proyecto usa el kernel **0.1.5** (commit `ed559e8`), con copia vendorizada y digests comprobados en la corrida del 2026-10-09.
+
+**Qué significa esta relación.** El proyecto se construyó con el método de Lore Plugin (su acuerdo y su criterio viven en el proyecto, en `acuerdo.md` y `lore/`), y sus operaciones, autoridad y recibos corren sobre el kernel de Vespi 0.1.5, en la copia fijada que distribuye Lore Plugin 2.5.1 (`skills/vespi/core/kernel`). Esa copia está en el proyecto como `vendor/vespi-kernel` y la suite la verifica contra su `SOURCE.md`. Lore Plugin no corre dentro del proyecto. Este proyecto no usa las capacidades nuevas del kernel (anclas Stellar pubnet, liquidación x402 en vivo, el verificador ZK, el acceso de emergencia); ejerce el núcleo de operaciones, autoridad y recibos.
 
 Lore Plugin aporta el contexto y el enrutamiento del proyecto para que el host pueda cargar el criterio correspondiente. No aporta el modelo de vivienda. [Cómo funciona](./docs/HOW_IT_WORKS.md#que-aporta-el-nucleo) explica qué capacidades se usan, cuáles solo se declaran y cuáles están ausentes.
 
