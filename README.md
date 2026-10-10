@@ -16,8 +16,6 @@
 <p align="center"><b>Casa Firme</b> — a family applying for housing should not have to hand over its identity to prove what happened.<br>
 Limited permissions, a separate check, and limits on how the family's data is used. Evidence: 24/24 tests. Fictional families and data.</p>
 
-<p align="center"><a href="#english"><b>Read in English</b></a> · <a href="#espanol"><b>Leer en español</b></a></p>
-
 <p align="center"><b>We’re applying to the Find Your Way hackathon and plan to participate in Meridian.</b></p>
 <p align="center"><b>For judges:</b> <a href="./docs/HOW_IT_WORKS.md">How it works</a> · <a href="./docs/EVIDENCE.md">Evidence</a> · <a href="./docs/LEGAL_AND_LIMITS.md">Limits</a> · <a href="./CODE_NOT_INCLUDED.md">Source and review terms</a>.<br>This public snapshot contains documentation and evidence, not runnable source.</p>
 
