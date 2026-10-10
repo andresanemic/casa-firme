@@ -2,7 +2,7 @@
 
 ## English
 
-This page separates recorded observations from what they establish. The public repository contains this report, not the application code or the full working transcript, so its tests cannot be rerun from this checkout.
+This page separates recorded observations from what they establish. The public repository contains this report and the application source, but not the full working transcript; the suite can be rerun from this checkout with `npm test`.
 
 ### Current suite
 
@@ -83,7 +83,7 @@ The phase record says seven requested red cases, one positive control and eight 
 
 ### Reproducing a run
 
-The project manifest defines `npm test` as `node --test "test/*.test.js"`, `npm run recorrido` for the recorded journey and `npm run cli -- <comando>` for the command line. Those commands require the application source and its expected vendored kernel copy, neither of which is supplied in this public repository. If the code becomes available under its review terms, a new run must report the same 24-test green count on Node v24.15.0, and `docs/suite-2026-10-09.txt` stays the reference for names and counts; record any new run separately with its environment and kernel commit rather than silently replacing this report.
+The project manifest defines `npm test` as `node --test "test/*.test.js"`, `npm run recorrido` for the recorded journey and `npm run cli -- <comando>` for the command line. Those commands need the application source and its vendored kernel copy, both of which are in this repository under the review-only license (reading and cloning for evaluation; no modification or redistribution). Run `npm test` on Node 24 from the project root; a new run must report the same 24-test green count on Node v24.15.0, and `docs/suite-2026-10-09.txt` stays the reference for names and counts; record any new run separately with its environment and kernel commit rather than silently replacing this report.
 
 ### Limits of this evidence
 
@@ -91,7 +91,7 @@ The inputs are synthetic. Tests do not establish actual family eligibility, lega
 
 ## Español
 
-Esta página separa las observaciones registradas de lo que permiten concluir. El repositorio público contiene este informe, no el código de la aplicación ni la transcripción íntegra de trabajo, por lo que desde este checkout no se pueden repetir las pruebas.
+Esta página separa las observaciones registradas de lo que permiten concluir. El repositorio público contiene este informe y el código fuente de la aplicación, pero no la transcripción íntegra de trabajo; la suite se puede repetir desde este checkout con `npm test`.
 
 ### Suite actual
 
@@ -172,7 +172,7 @@ El registro de fases dice que antes de implementar se escribieron siete casos ro
 
 ### Cómo reproducir una corrida
 
-El manifiesto del proyecto define `npm test` como `node --test "test/*.test.js"`, `npm run recorrido` para el recorrido registrado y `npm run cli -- <comando>` para la línea de comandos. Esos comandos requieren el código fuente de la aplicación y la copia vendorizada esperada del núcleo, que no se entregan en este repositorio público. Si el código queda disponible bajo sus condiciones de revisión, la nueva corrida debe informar el mismo conteo verde de 24 pruebas en Node v24.15.0, y `docs/suite-2026-10-09.txt` sigue como referencia de nombres y conteos; registra cualquier nueva corrida por separado con su entorno y commit del núcleo en vez de reemplazar este informe sin anotación.
+El manifiesto del proyecto define `npm test` como `node --test "test/*.test.js"`, `npm run recorrido` para el recorrido registrado y `npm run cli -- <comando>` para la línea de comandos. Esos comandos necesitan el código fuente de la aplicación y la copia vendorizada del núcleo, que están en este repositorio bajo la licencia de solo revisión (permite leer y clonar para evaluar, no modificar ni redistribuir). Ejecuta `npm test` con Node 24 desde la raíz del proyecto; la nueva corrida debe informar el mismo conteo verde de 24 pruebas en Node v24.15.0, y `docs/suite-2026-10-09.txt` sigue como referencia de nombres y conteos; registra cualquier nueva corrida por separado con su entorno y commit del núcleo en vez de reemplazar este informe sin anotación.
 
 ### Límites de esta evidencia
 

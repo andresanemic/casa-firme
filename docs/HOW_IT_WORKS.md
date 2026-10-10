@@ -61,7 +61,7 @@ The record is local and synthetic. The journey uses no network, payment or parti
 
 Casa Firme uses the Vespi kernel's bounded authority, named human approval gate, operation receipts, verification and continuity from receipts. The project adds the domain model that the kernel does not define: assembly minutes as authority, quorum and member rules, the housing and donation steps, the closed family schema and the local linked record. The consumed kernel copy is pinned to a commit and checked against declared module digests; this project does not change it.
 
-The project agreement pins its installed kernel cut to Vespi 0.1.5, commit `ed559e8`. This journey does not implement emergency access, skill provenance or live x402 payments. Lore Plugin supplies project context and host routing; it is not the source of housing authority or the donation rules. This public repository documents these relationships but does not contain the application source for readers to execute.
+The project agreement pins its installed kernel cut to Vespi 0.1.5, commit `ed559e8`. This journey does not implement emergency access, skill provenance or live x402 payments. Lore Plugin supplies project context and host routing; it is not the source of housing authority or the donation rules. This repository documents these relationships and contains the application source, which readers can run with `npm test` under the review-only license.
 
 ### What the journey demonstrates
 
@@ -128,7 +128,7 @@ El registro es local y sintético. El recorrido no usa red, pagos ni un servicio
 
 Casa Firme usa del núcleo de Vespi la autoridad acotada, la compuerta de aprobación humana identificada, los recibos de operación, la verificación y la continuidad desde recibos. El proyecto aporta el modelo de dominio que el núcleo no define: el acta como origen de autoridad, las reglas de quorum y membresía, los pasos de vivienda y donación, el esquema cerrado de la familia y el registro local encadenado. La copia consumida del núcleo está fijada a un commit y se comprueba con los digests declarados de sus módulos; este proyecto no la modifica.
 
-El acuerdo del proyecto fija el corte instalado del núcleo a Vespi 0.1.5, commit `ed559e8`. Este recorrido no implementa acceso de emergencia, procedencia de skills ni pagos x402 en vivo. Lore Plugin aporta contexto del proyecto y enrutamiento para los hosts; no es el origen de la autoridad de vivienda ni de las reglas de donación. Este repositorio público documenta esas relaciones, pero no contiene el código fuente de la aplicación para que el lector la ejecute.
+El acuerdo del proyecto fija el corte instalado del núcleo a Vespi 0.1.5, commit `ed559e8`. Este recorrido no implementa acceso de emergencia, procedencia de skills ni pagos x402 en vivo. Lore Plugin aporta contexto del proyecto y enrutamiento para los hosts; no es el origen de la autoridad de vivienda ni de las reglas de donación. Este repositorio documenta esas relaciones y contiene el código fuente de la aplicación, que el lector puede ejecutar con `npm test` bajo la licencia de solo revisión.
 
 ### Qué demuestra el recorrido
 

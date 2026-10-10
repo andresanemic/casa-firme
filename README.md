@@ -17,7 +17,7 @@
 Limited permissions, a separate check, and limits on how the family's data is used. Evidence: 24/24 tests. Fictional families and data.</p>
 
 <p align="center"><b>We’re applying to the Find Your Way hackathon and plan to participate in Meridian.</b></p>
-<p align="center"><b>For judges:</b> <a href="./docs/HOW_IT_WORKS.md">How it works</a> · <a href="./docs/EVIDENCE.md">Evidence</a> · <a href="./docs/LEGAL_AND_LIMITS.md">Limits</a> · <a href="./CODE_NOT_INCLUDED.md">Source and review terms</a>.<br>This public snapshot contains documentation and evidence, not runnable source.</p>
+<p align="center"><b>For judges:</b> <a href="./docs/HOW_IT_WORKS.md">How it works</a> · <a href="./docs/EVIDENCE.md">Evidence</a> · <a href="./docs/LEGAL_AND_LIMITS.md">Limits</a> · <a href="./LICENSE">Review-only license</a>.<br>The source is in this repository: run <code>npm test</code> on Node 24.</p>
 
 ---
 
@@ -126,7 +126,7 @@ The assembly decision is the authority boundary. A member cannot grant alone or 
 
 ## What Casa Firme is not
 
-It is not a housing registry, an eligibility decision, a donation manager, a deployed service or a real institution's process. It is a local, fictional vertical journey that makes authority, permission bounds and receipt continuity inspectable. The public repository contains the documentation for review; its application source is not included here.
+It is not a housing registry, an eligibility decision, a donation manager, a deployed service or a real institution's process. It is a local, fictional vertical journey that makes authority, permission bounds and receipt continuity inspectable. The public repository contains the documentation and the application source for review.
 
 ## Evidence you can open
 
@@ -148,9 +148,9 @@ There is no network call, real payment, custody, blockchain transaction, Stellar
 
 ## How to review this project
 
-Read [How it works](./docs/HOW_IT_WORKS.md) for the model, actors and example; [Evidence](./docs/EVIDENCE.md) for current results and what they prove; [Legal and limits](./docs/LEGAL_AND_LIMITS.md) for the unverified legal context and data boundaries; and [Code not included](./CODE_NOT_INCLUDED.md) for the source-release conditions. The [review-only license](./LICENSE) governs evaluation rights. The public record is documentation, not a runnable copy of the application.
+Read [How it works](./docs/HOW_IT_WORKS.md) for the model, actors and example; [Evidence](./docs/EVIDENCE.md) for current results and what they prove; and [Legal and limits](./docs/LEGAL_AND_LIMITS.md) for the unverified legal context and data boundaries. The [review-only license](./LICENSE) governs evaluation rights.
 
-The public project documents do not confirm whether the application source will be available during the judges' review period or give an availability date. See [Code not included](./CODE_NOT_INCLUDED.md) for the current publication conditions.
+The source is in this repository: run `npm test` on Node 24 from the project root. The [review-only license](./LICENSE) permits reading and cloning for evaluation, not modifying or redistributing the code.
 
 ## Author
 
@@ -160,7 +160,7 @@ The public project documents do not confirm whether the application source will 
 
 ---
 
-[How it works](./docs/HOW_IT_WORKS.md) · [Evidence](./docs/EVIDENCE.md) · [Legal and limits](./docs/LEGAL_AND_LIMITS.md) · [Code not included](./CODE_NOT_INCLUDED.md) · [Review-only license](./LICENSE) · [Vespi](https://github.com/andresanemic/vespi) · [Lore Plugin](https://github.com/andresanemic/lore-plugin)
+[How it works](./docs/HOW_IT_WORKS.md) · [Evidence](./docs/EVIDENCE.md) · [Legal and limits](./docs/LEGAL_AND_LIMITS.md) · [Review-only license](./LICENSE) · [Vespi](https://github.com/andresanemic/vespi) · [Lore Plugin](https://github.com/andresanemic/lore-plugin)
 
 </details>
 
@@ -191,7 +191,7 @@ Abre el registro de pruebas. Consulta [Evidencia](./docs/EVIDENCE.md).
 
 Lee los límites jurídicos y de verificación. Consulta [Marco legal y límites](./docs/LEGAL_AND_LIMITS.md).
 
-Revisa las condiciones de publicación. Consulta [Código no incluido](./CODE_NOT_INCLUDED.md) y la [licencia de solo revisión](./LICENSE).
+Lee los términos en la [licencia de solo revisión](./LICENSE) y ejecuta `npm test` (Node 24).
 
 ## En un minuto
 
@@ -279,7 +279,7 @@ La decisión de la asamblea marca el límite de autoridad. Un miembro no puede o
 
 ## Qué no es Casa Firme
 
-No es un sistema de catastro, una decisión de elegibilidad, un gestor de donaciones, un servicio desplegado ni el proceso de una institución real. Es un recorrido vertical local y ficticio que permite revisar la autoridad, los límites de los permisos y la continuidad de los recibos. El repositorio público contiene la documentación para evaluación; aquí no está el código de la aplicación.
+No es un sistema de catastro, una decisión de elegibilidad, un gestor de donaciones, un servicio desplegado ni el proceso de una institución real. Es un recorrido vertical local y ficticio que permite revisar la autoridad, los límites de los permisos y la continuidad de los recibos. El repositorio público contiene la documentación y el código fuente de la aplicación para evaluación.
 
 ## Evidencia que puedes abrir
 
@@ -301,9 +301,9 @@ No hay llamadas de red, pagos reales, custodia, transacción en blockchain, ancl
 
 ## Cómo revisar el proyecto
 
-Lee [Cómo funciona](./docs/HOW_IT_WORKS.md) para conocer el modelo, los actores y el ejemplo; [Evidencia](./docs/EVIDENCE.md) para revisar los resultados actuales y su alcance; [Marco legal y límites](./docs/LEGAL_AND_LIMITS.md) para conocer el contexto jurídico no verificado y las fronteras de los datos; y [Código no incluido](./CODE_NOT_INCLUDED.md) para las condiciones de publicación del código. La [licencia de solo revisión](./LICENSE) define los derechos de evaluación. El registro público es documentación, no una copia ejecutable de la aplicación.
+Lee [Cómo funciona](./docs/HOW_IT_WORKS.md) para conocer el modelo, los actores y el ejemplo; [Evidencia](./docs/EVIDENCE.md) para revisar los resultados actuales y su alcance; y [Marco legal y límites](./docs/LEGAL_AND_LIMITS.md) para conocer el contexto jurídico no verificado y las fronteras de los datos. La [licencia de solo revisión](./LICENSE) define los derechos de evaluación.
 
-Los documentos públicos del proyecto no confirman si el código fuente de la aplicación estará disponible durante el periodo de evaluación ni indican una fecha. Consulta [Código no incluido](./CODE_NOT_INCLUDED.md) para conocer las condiciones de publicación actuales.
+El código está en este repositorio: ejecuta `npm test` con Node 24 desde la raíz del proyecto. La [licencia de solo revisión](./LICENSE) permite leer y clonar para evaluar, no modificar ni redistribuir el código.
 
 ## Autoría
 
@@ -313,6 +313,6 @@ Los documentos públicos del proyecto no confirman si el código fuente de la ap
 
 ---
 
-[Cómo funciona](./docs/HOW_IT_WORKS.md) · [Evidencia](./docs/EVIDENCE.md) · [Marco legal y límites](./docs/LEGAL_AND_LIMITS.md) · [Código no incluido](./CODE_NOT_INCLUDED.md) · [Licencia de solo revisión](./LICENSE) · [Vespi](https://github.com/andresanemic/vespi) · [Lore Plugin](https://github.com/andresanemic/lore-plugin)
+[Cómo funciona](./docs/HOW_IT_WORKS.md) · [Evidencia](./docs/EVIDENCE.md) · [Marco legal y límites](./docs/LEGAL_AND_LIMITS.md) · [Licencia de solo revisión](./LICENSE) · [Vespi](https://github.com/andresanemic/vespi) · [Lore Plugin](https://github.com/andresanemic/lore-plugin)
 
 </details>

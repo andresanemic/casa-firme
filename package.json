@@ -1,0 +1,11 @@
+{
+  "name": "casafirme",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Proyecto 3 de los diez de Vespi: los campamentos, con la autoridad naciendo de la asamblea del comite de vivienda. Consume el kernel de Vespi; no lo modifica.",
+  "scripts": {
+    "test": "node --test \"test/*.test.js\"",
+    "recorrido": "node src/recorrido.js",
+    "cli": "node src/cli.js"
+  }
+}
