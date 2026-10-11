@@ -6,7 +6,7 @@ This page separates recorded observations from what they establish. The public r
 
 ### Current suite
 
-The supplied run of 2026-10-09 reports **24 tests, 24 passing, none otherwise, none skipped, none todo, none cancelled, on Node v24.15.0**. It ran in a clean clone with empty HOME and no network, with command `node --test test/*.test.js`. The consumed kernel is Vespi 0.1.5, commit `ed559e83c976dd6e6a379a5510db776206f670b4`, copied in `vendor/vespi-kernel` and checked against its SOURCE.md (per-module digests and commit). The reference capture is `docs/suite-2026-10-09.txt`; every name below comes from that file.
+The supplied run of 2026-10-09 reports **24 tests, 24 passing, none otherwise, none skipped, none todo, none cancelled, on Node v24.15.0**. It ran in a clean clone with empty HOME and no network, with command `node --test test/*.test.js`. The consumed kernel is Vespi 0.1.6, commit `95f2d614f4492056c8bb2cd951f08d1089027d4f`, copied in `vendor/vespi-kernel` and checked against its SOURCE.md (per-module digests and commit). The reference capture is `docs/suite-2026-10-09.txt`; every name below comes from that file.
 
 #### Kernel identity
 
@@ -54,7 +54,7 @@ The supplied run of 2026-10-09 reports **24 tests, 24 passing, none otherwise, n
 
 ### Why the earlier capture was red
 
-The 2026-10-03 capture was red while the project was pinned to the old 0.1.3 kernel cut. That pin has since been updated to 0.1.5 with its vendored copy and digest checks, and the 2026-10-09 capture is green.
+The 2026-10-03 capture was red while the project was pinned to the old 0.1.3 kernel cut. That pin has since been updated to 0.1.6 with its vendored copy and digest checks, and the 2026-10-09 capture is green.
 
 ### What the checks cover
 
@@ -95,7 +95,7 @@ Esta página separa las observaciones registradas de lo que permiten concluir. E
 
 ### Suite actual
 
-La corrida suministrada del 2026-10-09 informa **24 pruebas, 24 aprobadas, ninguna con otro resultado, ninguna omitida, ninguna todo, ninguna cancelada, en Node v24.15.0**. Corrió en un clon limpio con HOME vacío y sin red, con el comando `node --test test/*.test.js`. El núcleo consumido es Vespi 0.1.5, commit `ed559e83c976dd6e6a379a5510db776206f670b4`, copiado en `vendor/vespi-kernel` y comprobado contra su SOURCE.md (digests por módulo y commit). La captura de referencia es `docs/suite-2026-10-09.txt`; cada nombre siguiente viene de ese archivo.
+La corrida suministrada del 2026-10-09 informa **24 pruebas, 24 aprobadas, ninguna con otro resultado, ninguna omitida, ninguna todo, ninguna cancelada, en Node v24.15.0**. Corrió en un clon limpio con HOME vacío y sin red, con el comando `node --test test/*.test.js`. El núcleo consumido es Vespi 0.1.6, commit `95f2d614f4492056c8bb2cd951f08d1089027d4f`, copiado en `vendor/vespi-kernel` y comprobado contra su SOURCE.md (digests por módulo y commit). La captura de referencia es `docs/suite-2026-10-09.txt`; cada nombre siguiente viene de ese archivo.
 
 #### Identidad del núcleo
 
@@ -143,7 +143,7 @@ La corrida suministrada del 2026-10-09 informa **24 pruebas, 24 aprobadas, ningu
 
 ### Por qué la captura anterior quedó en rojo
 
-La captura del 2026-10-03 quedó en rojo cuando el proyecto estaba fijado al corte viejo 0.1.3 del núcleo. Ese pin ya se actualizó a 0.1.5 con su copia vendorizada y sus comprobaciones de digest, y la captura del 2026-10-09 está en verde.
+La captura del 2026-10-03 quedó en rojo cuando el proyecto estaba fijado al corte viejo 0.1.3 del núcleo. Ese pin ya se actualizó a 0.1.6 con su copia vendorizada y sus comprobaciones de digest, y la captura del 2026-10-09 está en verde.
 
 ### Qué cubren las comprobaciones
 
