@@ -2,7 +2,7 @@
 
 // El núcleo que Casa Firme consume, resuelto desde la copia vendorizada del proyecto.
 //
-// Esa copia está fijada al corte 0.1.6 (commit 7767daa369e464b486ddf16b08b8985e59ec107d)
+// Esa copia está fijada al corte 0.1.6 (commit 98a33280fb35cb1fc7feda483e7dd57b97362c49)
 // y sus bytes están declarados, módulo por módulo, en el `SOURCE.md` que viaja con ella.
 // El proyecto se sirve desde ahí y de ningún otro lado: el árbol de desarrollo del kernel
 // vive en otra máquina y avanza, y una copia instalada por un plugin en el HOME de cada
