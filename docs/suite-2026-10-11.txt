@@ -1,32 +1,32 @@
 Suite capture — casafirme — 2026-10-11
-Command: node --test test/*.test.js (clean clone of commit a8e62a9, empty HOME, no network)
-Node: v24.15.0 · Kernel: Vespi 0.1.6, commit 98a33280fb35cb1fc7feda483e7dd57b97362c49, copied in vendor/vespi-kernel
+Command: node --test test/*.test.js (clean clone of commit b696876, empty HOME, no network)
+Node: v24.15.0 · Kernel: Vespi 0.1.6, commit 39d45733839d0a05f60248fc6e5b81c892c464f8, copied in vendor/vespi-kernel
 Summary: tests 24 pass 24 fail 0 cancelled 0 skipped 0 todo 0 
 
-✔ la copia vendorizada existe y trae cada módulo que el kit declara (2.7234ms)
-✔ cada módulo calza con el digest que el kit declara (125.0809ms)
-✔ los encabezados de procedencia declaran el commit del corte (2.4931ms)
-✔ la copia se carga desde vendor, no desde el árbol de desarrollo ni del HOME (5.817ms)
-✔ ROJO 1 — un acta sin quorum no otorga: la postulación no avanza (29.848ms)
-✔ ROJO 2 — un miembro no puede autorizar más allá de lo que la asamblea otorgó (31.2683ms)
-✔ ROJO 3 — la familia puede firmar, pero su firma no es la de la asamblea (20.5859ms)
-✔ ROJO 4 — una donación sin aportante no se puede usar: el dinero no llega a ninguna parte (36.2929ms)
-✔ ROJO 5 — registrar dos veces la misma donación no la duplica: devuelve el mismo recibo (36.2726ms)
-✔ ROJO 6 — nadie construye sin el acta que lo autoriza (28.0149ms)
-✔ CONTROL — una postulación que DEBE poder aprobarse se aprueba (49.5495ms)
-✔ el presupuesto del permiso se gasta y se acumula entre usos (39.1179ms)
-✔ pasada la fecha del reloj, el permiso no revive solo (26.3494ms)
-✔ un permiso no viaja a otra vivienda (25.7454ms)
-✔ el dato de una familia no se puede escribir: el esquema lo rechaza (10.8088ms)
-✔ la auditoría de la cadena no encuentra dato de familia, y se demuestra que no está vacía (15.3198ms)
-✔ lo que se publicaría no trae dato de familia, y la pantalla lo dice (14.3502ms)
-✔ reescribir una línea vieja rompe la cadena y la auditoría lo ve (25.3041ms)
-✔ el recibo va sellado y uno editado a mano no verifica (16.0512ms)
-✔ un verificador que solo cree al ejecutor no puede producir un verde en la auditoría (40.6789ms)
-✔ el donante recorre su dinero desde la postulación hasta el uso, sin intermediarios (44.154ms)
-✔ nada del recorrido nombra a una organización real (118.7209ms)
-✔ el recorrido completo corre de punta a punta y su registro se puede leer sin Casa Firme (81.9663ms)
-✔ la línea de comandos hace lo que dice y devuelve el código que corresponde (185.6843ms)
+✔ la copia vendorizada existe y trae cada módulo que el kit declara (4.8377ms)
+✔ cada módulo calza con el digest que el kit declara (157.4375ms)
+✔ los encabezados de procedencia declaran el commit del corte (3.7623ms)
+✔ la copia se carga desde vendor, no desde el árbol de desarrollo ni del HOME (7.7086ms)
+✔ ROJO 1 — un acta sin quorum no otorga: la postulación no avanza (39.2885ms)
+✔ ROJO 2 — un miembro no puede autorizar más allá de lo que la asamblea otorgó (43.7015ms)
+✔ ROJO 3 — la familia puede firmar, pero su firma no es la de la asamblea (26.2441ms)
+✔ ROJO 4 — una donación sin aportante no se puede usar: el dinero no llega a ninguna parte (48.9048ms)
+✔ ROJO 5 — registrar dos veces la misma donación no la duplica: devuelve el mismo recibo (46.5182ms)
+✔ ROJO 6 — nadie construye sin el acta que lo autoriza (31.0277ms)
+✔ CONTROL — una postulación que DEBE poder aprobarse se aprueba (54.1424ms)
+✔ el presupuesto del permiso se gasta y se acumula entre usos (47.6889ms)
+✔ pasada la fecha del reloj, el permiso no revive solo (33.608ms)
+✔ un permiso no viaja a otra vivienda (30.3518ms)
+✔ el dato de una familia no se puede escribir: el esquema lo rechaza (13.4365ms)
+✔ la auditoría de la cadena no encuentra dato de familia, y se demuestra que no está vacía (18.9511ms)
+✔ lo que se publicaría no trae dato de familia, y la pantalla lo dice (17.366ms)
+✔ reescribir una línea vieja rompe la cadena y la auditoría lo ve (29.6609ms)
+✔ el recibo va sellado y uno editado a mano no verifica (17.2313ms)
+✔ un verificador que solo cree al ejecutor no puede producir un verde en la auditoría (46.4519ms)
+✔ el donante recorre su dinero desde la postulación hasta el uso, sin intermediarios (54.2682ms)
+✔ nada del recorrido nombra a una organización real (139.0925ms)
+✔ el recorrido completo corre de punta a punta y su registro se puede leer sin Casa Firme (98.3608ms)
+✔ la línea de comandos hace lo que dice y devuelve el código que corresponde (232.5281ms)
 ℹ tests 24
 ℹ suites 0
 ℹ pass 24
@@ -34,4 +34,4 @@ Summary: tests 24 pass 24 fail 0 cancelled 0 skipped 0 todo 0
 ℹ cancelled 0
 ℹ skipped 0
 ℹ todo 0
-ℹ duration_ms 1070.1091
+ℹ duration_ms 1329.8982
