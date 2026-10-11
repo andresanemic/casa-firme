@@ -65,7 +65,7 @@ The project agreement pins its installed kernel cut to Vespi 0.1.6, commit `95f2
 
 ### What the journey demonstrates
 
-The supplied suite names checks for quorum, member authority, permission bounds, cumulative budget use, expiry, destination, duplicate donations, construction authorization, closed family fields, receipt integrity, chain tampering, independent recomputation and a complete local journey. The full scope and green 2026-10-09 result are recorded in [Evidence](EVIDENCE.md).
+The supplied suite names checks for quorum, member authority, permission bounds, cumulative budget use, expiry, destination, duplicate donations, construction authorization, closed family fields, receipt integrity, chain tampering, independent recomputation and a complete local journey. The full scope and green 2026-10-11 result are recorded in [Evidence](EVIDENCE.md).
 
 These checks are bounded observations about synthetic inputs and a local run. They do not establish family eligibility, real-world authority, legal compliance, privacy in a deployment, an actual donation or build, institutional participation, external anchoring or production readiness. No claim in this walkthrough substitutes for those checks.
 
@@ -132,6 +132,6 @@ El acuerdo del proyecto fija el corte instalado del núcleo a Vespi 0.1.6, commi
 
 ### Qué demuestra el recorrido
 
-Los nombres de pruebas suministrados comprueban quorum, autoridad de miembros, límites de permisos, consumo acumulado de presupuesto, vencimiento, destino, donaciones duplicadas, autorización de construcción, campos familiares cerrados, integridad de recibos, alteración de la cadena, recálculo independiente y un recorrido local completo. [Evidencia](EVIDENCE.md) registra el alcance íntegro y el resultado verde del 2026-10-09.
+Los nombres de pruebas suministrados comprueban quorum, autoridad de miembros, límites de permisos, consumo acumulado de presupuesto, vencimiento, destino, donaciones duplicadas, autorización de construcción, campos familiares cerrados, integridad de recibos, alteración de la cadena, recálculo independiente y un recorrido local completo. [Evidencia](EVIDENCE.md) registra el alcance íntegro y el resultado verde del 2026-10-11.
 
 Estas comprobaciones son observaciones acotadas sobre datos sintéticos y una corrida local. No establecen elegibilidad familiar, autoridad en el mundo real, cumplimiento legal, privacidad en un despliegue, una donación o construcción efectivas, participación institucional, anclaje externo ni preparación para producción. Este recorrido no reemplaza esas comprobaciones.

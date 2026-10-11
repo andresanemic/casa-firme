@@ -6,7 +6,7 @@ This page separates recorded observations from what they establish. The public r
 
 ### Current suite
 
-The supplied run of 2026-10-09 reports **24 tests, 24 passing, none otherwise, none skipped, none todo, none cancelled, on Node v24.15.0**. It ran in a clean clone with empty HOME and no network, with command `node --test test/*.test.js`. The consumed kernel is Vespi 0.1.6, commit `95f2d614f4492056c8bb2cd951f08d1089027d4f`, copied in `vendor/vespi-kernel` and checked against its SOURCE.md (per-module digests and commit). The reference capture is `docs/suite-2026-10-09.txt`; every name below comes from that file.
+The supplied run of 2026-10-11 reports **24 tests, 24 passing, none otherwise, none skipped, none todo, none cancelled, on Node v24.15.0**. It ran in a clean clone with empty HOME and no network, with command `node --test test/*.test.js`. The consumed kernel is Vespi 0.1.6, commit `95f2d614f4492056c8bb2cd951f08d1089027d4f`, copied in `vendor/vespi-kernel` and checked against its SOURCE.md (per-module digests and commit). The reference capture is `docs/suite-2026-10-11.txt`; every name below comes from that file.
 
 #### Kernel identity
 
@@ -54,7 +54,7 @@ The supplied run of 2026-10-09 reports **24 tests, 24 passing, none otherwise, n
 
 ### Why the earlier capture was red
 
-The 2026-10-03 capture was red while the project was pinned to the old 0.1.3 kernel cut. That pin has since been updated to 0.1.6 with its vendored copy and digest checks, and the 2026-10-09 capture is green.
+The 2026-10-03 capture was red while the project was pinned to the old 0.1.3 kernel cut. That pin has since been updated to 0.1.6 with its vendored copy and digest checks, and the 2026-10-11 capture is green.
 
 ### What the checks cover
 
@@ -83,7 +83,7 @@ The phase record says seven requested red cases, one positive control and eight 
 
 ### Reproducing a run
 
-The project manifest defines `npm test` as `node --test "test/*.test.js"`, `npm run recorrido` for the recorded journey and `npm run cli -- <comando>` for the command line. Those commands need the application source and its vendored kernel copy, both of which are in this repository under the review-only license (reading and cloning for evaluation; no modification or redistribution). Run `npm test` on Node 24 from the project root; a new run must report the same 24-test green count on Node v24.15.0, and `docs/suite-2026-10-09.txt` stays the reference for names and counts; record any new run separately with its environment and kernel commit rather than silently replacing this report.
+The project manifest defines `npm test` as `node --test "test/*.test.js"`, `npm run recorrido` for the recorded journey and `npm run cli -- <comando>` for the command line. Those commands need the application source and its vendored kernel copy, both of which are in this repository under the review-only license (reading and cloning for evaluation; no modification or redistribution). Run `npm test` on Node 24 from the project root; a new run must report the same 24-test green count on Node v24.15.0, and `docs/suite-2026-10-11.txt` stays the reference for names and counts; record any new run separately with its environment and kernel commit rather than silently replacing this report.
 
 ### Limits of this evidence
 
@@ -95,7 +95,7 @@ Esta página separa las observaciones registradas de lo que permiten concluir. E
 
 ### Suite actual
 
-La corrida suministrada del 2026-10-09 informa **24 pruebas, 24 aprobadas, ninguna con otro resultado, ninguna omitida, ninguna todo, ninguna cancelada, en Node v24.15.0**. Corrió en un clon limpio con HOME vacío y sin red, con el comando `node --test test/*.test.js`. El núcleo consumido es Vespi 0.1.6, commit `95f2d614f4492056c8bb2cd951f08d1089027d4f`, copiado en `vendor/vespi-kernel` y comprobado contra su SOURCE.md (digests por módulo y commit). La captura de referencia es `docs/suite-2026-10-09.txt`; cada nombre siguiente viene de ese archivo.
+La corrida suministrada del 2026-10-11 informa **24 pruebas, 24 aprobadas, ninguna con otro resultado, ninguna omitida, ninguna todo, ninguna cancelada, en Node v24.15.0**. Corrió en un clon limpio con HOME vacío y sin red, con el comando `node --test test/*.test.js`. El núcleo consumido es Vespi 0.1.6, commit `95f2d614f4492056c8bb2cd951f08d1089027d4f`, copiado en `vendor/vespi-kernel` y comprobado contra su SOURCE.md (digests por módulo y commit). La captura de referencia es `docs/suite-2026-10-11.txt`; cada nombre siguiente viene de ese archivo.
 
 #### Identidad del núcleo
 
@@ -143,7 +143,7 @@ La corrida suministrada del 2026-10-09 informa **24 pruebas, 24 aprobadas, ningu
 
 ### Por qué la captura anterior quedó en rojo
 
-La captura del 2026-10-03 quedó en rojo cuando el proyecto estaba fijado al corte viejo 0.1.3 del núcleo. Ese pin ya se actualizó a 0.1.6 con su copia vendorizada y sus comprobaciones de digest, y la captura del 2026-10-09 está en verde.
+La captura del 2026-10-03 quedó en rojo cuando el proyecto estaba fijado al corte viejo 0.1.3 del núcleo. Ese pin ya se actualizó a 0.1.6 con su copia vendorizada y sus comprobaciones de digest, y la captura del 2026-10-11 está en verde.
 
 ### Qué cubren las comprobaciones
 
@@ -172,7 +172,7 @@ El registro de fases dice que antes de implementar se escribieron siete casos ro
 
 ### Cómo reproducir una corrida
 
-El manifiesto del proyecto define `npm test` como `node --test "test/*.test.js"`, `npm run recorrido` para el recorrido registrado y `npm run cli -- <comando>` para la línea de comandos. Esos comandos necesitan el código fuente de la aplicación y la copia vendorizada del núcleo, que están en este repositorio bajo la licencia de solo revisión (permite leer y clonar para evaluar, no modificar ni redistribuir). Ejecuta `npm test` con Node 24 desde la raíz del proyecto; la nueva corrida debe informar el mismo conteo verde de 24 pruebas en Node v24.15.0, y `docs/suite-2026-10-09.txt` sigue como referencia de nombres y conteos; registra cualquier nueva corrida por separado con su entorno y commit del núcleo en vez de reemplazar este informe sin anotación.
+El manifiesto del proyecto define `npm test` como `node --test "test/*.test.js"`, `npm run recorrido` para el recorrido registrado y `npm run cli -- <comando>` para la línea de comandos. Esos comandos necesitan el código fuente de la aplicación y la copia vendorizada del núcleo, que están en este repositorio bajo la licencia de solo revisión (permite leer y clonar para evaluar, no modificar ni redistribuir). Ejecuta `npm test` con Node 24 desde la raíz del proyecto; la nueva corrida debe informar el mismo conteo verde de 24 pruebas en Node v24.15.0, y `docs/suite-2026-10-11.txt` sigue como referencia de nombres y conteos; registra cualquier nueva corrida por separado con su entorno y commit del núcleo en vez de reemplazar este informe sin anotación.
 
 ### Límites de esta evidencia
 
