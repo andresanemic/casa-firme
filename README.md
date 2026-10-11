@@ -145,6 +145,9 @@ Lore Plugin provides the project context and routing through which a host can lo
 
 ## What it does not do, and what is not verified
 
+Review status: this project has not been audited. The Vespi kernel it runs on has had superreviews with Claude Code and no independent external security audit.
+
+
 There is no network call, real payment, custody, blockchain transaction, Stellar testnet anchor or participating third party. The receipt anchor stays `pending`. The zero-knowledge proof is simulated. The record does not establish that a real family belongs to a registry or has a legal right to housing. No legal professional reviewed the project, and no legal standard is claimed as a design basis. The project has not established deployed privacy, institutional adoption, real construction or production readiness. The law mentioned in project planning was not checked against its primary text and is therefore not identified here.
 
 ## How to review this project
@@ -299,6 +302,9 @@ Casa Firme consume el núcleo de Vespi para autoridad acotada, aprobaciones huma
 Lore Plugin aporta el contexto y el enrutamiento del proyecto para que el host pueda cargar el criterio correspondiente. No aporta el modelo de vivienda. [Cómo funciona](./docs/HOW_IT_WORKS.md#que-aporta-el-nucleo) explica qué capacidades se usan, cuáles solo se declaran y cuáles están ausentes.
 
 ## Qué no hace y qué no está verificado
+
+Estado de revisión: este proyecto no ha sido auditado. El kernel de Vespi sobre el que corre ha tenido superreviews con Claude Code y ninguna auditoría de seguridad externa independiente.
+
 
 No hay llamadas de red, pagos reales, custodia, transacción en blockchain, anclaje en Stellar testnet ni participación de una tercera parte. Este recorrido tampoco implementa acceso de emergencia, procedencia de skills ni x402 en vivo. El anclaje del recibo permanece en `pending`. La prueba de conocimiento cero está simulada. El registro no demuestra que una familia real pertenezca a un catastro ni que tenga derecho legal a una vivienda. Ningún profesional del derecho revisó el proyecto y no se afirma que esté basado en una norma legal. Tampoco se han establecido privacidad en un despliegue, adopción institucional, construcción real ni preparación para producción. La ley mencionada durante la planificación no se comprobó en su texto primario y por eso no se identifica aquí.
 
