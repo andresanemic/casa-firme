@@ -50,7 +50,7 @@ Every actor and datum in this account is fictional. This is a local walkthrough,
 
 ## What it looks like in practice
 
-The supplied terminal journey puts the rule under pressure before it shows the successful path. The following lines are excerpts from that run; the examples use fictional actors and synthetic data.
+The recorded terminal journey puts the rule under pressure before it shows the successful path. The following lines are excerpts from that run; the examples use fictional actors and synthetic data.
 
 First, one approval is missing from a two-approval assembly. The application waits, and the permission count stays at zero:
 
@@ -115,7 +115,7 @@ The assembly decision is the authority boundary. A member cannot grant alone or 
 | Foundation | Contribute material and execute its own authorized work | Its size gives it no authority beyond its grant |
 | Municipality | Record its authorized delivery step | Acts only within its own grant |
 | Donor | Contribute and read the receipt trail | Sees the recorded trail, not the family |
-| Verifier | Recompute what the supplied record supports | Checks that record; does not establish real-world truth |
+| Verifier | Recompute what the recorded record supports | Checks that record; does not establish real-world truth |
 
 ## Why Casa Firme
 
@@ -123,7 +123,7 @@ The assembly decision is the authority boundary. A member cannot grant alone or 
 |---|---|---|
 | Know who had authority to approve a step | Assembly minutes, named quorum and separate grants for construction and delivery | [How it works: authority and actors](./docs/HOW_IT_WORKS.md#actors-rights-and-limits) |
 | Stop a delegated permission from growing | A grant for four units cannot be widened to nine; the attempted expansion returns blocked | [How it works: permission rules](./docs/HOW_IT_WORKS.md#permission-rules) |
-| Trace a contribution to a recorded use | A ten-unit fictional contribution, a three-unit use and a receipt trail the donor can read | [Evidence: the supplied journey](./docs/EVIDENCE.md#the-supplied-journey) |
+| Trace a contribution to a recorded use | A ten-unit fictional contribution, a three-unit use and a receipt trail the donor can read | [Evidence: the recorded journey](./docs/EVIDENCE.md#the-supplied-journey) |
 | Keep a family out of the donor's view | A closed family schema, an alias and a fingerprint; the run checks what would be published | [Legal and limits](./docs/LEGAL_AND_LIMITS.md#family-data-and-privacy) |
 
 ## What Casa Firme is not
@@ -132,7 +132,7 @@ It is not a housing registry, an eligibility decision, a donation manager, a dep
 
 ## Evidence you can open
 
-The supplied test record of 2026-10-11 reports **24 tests, 24 passing, none otherwise, none skipped, on Node v24.15.0**. It covers assembly quorum and signatures, delegated limits, budgets, expiry, destination, duplicate donations, construction authorization, closed family fields, receipt sealing and chain tampering, independent recomputation, the donation journey, the command-line contract, and the vendored kernel copy (presence, digests, provenance headers, load from vendor). The adversarial RED phase was written before code, but that early run stopped at import because the application module did not yet exist; it records the intended attacks, not an executed result for each one.
+The recorded test record of 2026-10-11 reports **24 tests, 24 passing, none otherwise, none skipped, on Node v24.15.0**. It covers assembly quorum and signatures, delegated limits, budgets, expiry, destination, duplicate donations, construction authorization, closed family fields, receipt sealing and chain tampering, independent recomputation, the donation journey, the command-line contract, and the vendored kernel copy (presence, digests, provenance headers, load from vendor). The adversarial RED phase was written before code, but that early run stopped at import because the application module did not yet exist; it records the intended attacks, not an executed result for each one.
 
 The 2026-10-03 capture was red under the old 0.1.3 kernel cut; the project has since been re-pinned to 0.1.6 and the 2026-10-11 capture is green. See [Evidence](./docs/EVIDENCE.md) for the exact scope and the reference capture.
 
@@ -208,7 +208,7 @@ Todos los actores y datos de este relato son ficticios. Es un recorrido local, n
 
 ## Cómo se ve en la práctica
 
-El recorrido suministrado por terminal pone a prueba la regla antes de mostrar el camino que sí avanza. Estas líneas son fragmentos de esa corrida; los actores son ficticios y los datos, sintéticos.
+El recorrido registrado por terminal pone a prueba la regla antes de mostrar el camino que sí avanza. Estas líneas son fragmentos de esa corrida; los actores son ficticios y los datos, sintéticos.
 
 Primero, falta una aprobación para una asamblea que requiere dos. La postulación queda en espera y el recuento de permisos sigue en cero:
 
@@ -273,7 +273,7 @@ La decisión de la asamblea marca el límite de autoridad. Un miembro no puede o
 | Fundación | Aportar material y ejecutar su trabajo autorizado | Su tamaño no le da autoridad más allá del permiso |
 | Municipalidad | Registrar su paso de entrega autorizado | Actúa solo dentro de su permiso |
 | Donante | Aportar y leer el recorrido de recibos | Ve el recorrido registrado, no a la familia |
-| Verificador | Recalcular lo que respalda el registro suministrado | Comprueba ese registro; no establece la verdad del mundo real |
+| Verificador | Recalcular lo que respalda el registro registrado | Comprueba ese registro; no establece la verdad del mundo real |
 
 ## Por qué Casa Firme
 
@@ -281,7 +281,7 @@ La decisión de la asamblea marca el límite de autoridad. Un miembro no puede o
 |---|---|---|
 | Saber quién tuvo autoridad para aprobar un paso | Acta, quorum con nombres y permisos distintos para construir y entregar | [Cómo funciona: autoridad y actores](./docs/HOW_IT_WORKS.md#actores-derechos-y-límites) |
 | Impedir que un permiso delegado crezca | Un permiso de cuatro unidades no se amplía a nueve; el intento vuelve bloqueado | [Cómo funciona: reglas de permisos](./docs/HOW_IT_WORKS.md#reglas-de-permisos) |
-| Seguir un aporte hasta su uso registrado | Un aporte ficticio de diez unidades, un uso de tres y recibos que el donante puede leer | [Evidencia: el recorrido suministrado](./docs/EVIDENCE.md#el-recorrido-suministrado) |
+| Seguir un aporte hasta su uso registrado | Un aporte ficticio de diez unidades, un uso de tres y recibos que el donante puede leer | [Evidencia: el recorrido registrado](./docs/EVIDENCE.md#el-recorrido-suministrado) |
 | Mantener a la familia fuera de la vista del donante | Esquema cerrado, alias y huella; la corrida revisa qué se publicaría | [Marco legal y límites](./docs/LEGAL_AND_LIMITS.md#datos-familiares-y-privacidad) |
 
 ## Qué no es Casa Firme
@@ -290,7 +290,7 @@ No es un sistema de catastro, una decisión de elegibilidad, un gestor de donaci
 
 ## Evidencia que puedes abrir
 
-El registro suministrado del 2026-10-11 informa **24 pruebas, 24 aprobadas, ninguna con otro resultado, ninguna omitida, en Node v24.15.0**. Cubre quorum y firmas de asamblea, límites de delegación, presupuesto, vencimiento, destino, donaciones duplicadas, autorización de construcción, campos familiares cerrados, sellado e integridad de la cadena, recálculo independiente, el recorrido de la donación, el contrato de la línea de comandos y la copia vendorizada del núcleo (presencia, digests, encabezados de procedencia, carga desde vendor). La fase adversarial RED se escribió antes del código, pero aquella corrida inicial se detuvo al importar porque todavía no existía el módulo de la aplicación; registra ataques previstos, no la ejecución individual de cada caso.
+El registro registrado del 2026-10-11 informa **24 pruebas, 24 aprobadas, ninguna con otro resultado, ninguna omitida, en Node v24.15.0**. Cubre quorum y firmas de asamblea, límites de delegación, presupuesto, vencimiento, destino, donaciones duplicadas, autorización de construcción, campos familiares cerrados, sellado e integridad de la cadena, recálculo independiente, el recorrido de la donación, el contrato de la línea de comandos y la copia vendorizada del núcleo (presencia, digests, encabezados de procedencia, carga desde vendor). La fase adversarial RED se escribió antes del código, pero aquella corrida inicial se detuvo al importar porque todavía no existía el módulo de la aplicación; registra ataques previstos, no la ejecución individual de cada caso.
 
 La captura del 2026-10-03 quedó en rojo con el corte viejo 0.1.3 del núcleo; el proyecto ya se fijó a 0.1.6 y la captura del 2026-10-11 está en verde. [Evidencia](./docs/EVIDENCE.md) detalla el alcance y la captura de referencia.
 
