@@ -6,7 +6,7 @@ This page separates recorded observations from what they establish. The public r
 
 ### Current suite
 
-The supplied run of 2026-10-11 reports **24 tests, 24 passing, none otherwise, none skipped, none todo, none cancelled, on Node v24.15.0**. It ran in a clean clone with empty HOME and no network, with command `node --test test/*.test.js`. The consumed kernel is Vespi 0.1.6, commit `95f2d614f4492056c8bb2cd951f08d1089027d4f`, copied in `vendor/vespi-kernel` and checked against its SOURCE.md (per-module digests and commit). The reference capture is `docs/suite-2026-10-11.txt`; every name below comes from that file.
+The supplied run of 2026-10-11 reports **24 tests, 24 passing, none otherwise, none skipped, none todo, none cancelled, on Node v24.15.0**. It ran in a clean clone with empty HOME and no network, with command `node --test test/*.test.js`. The consumed kernel is Vespi 0.1.6, commit `7767daa369e464b486ddf16b08b8985e59ec107d`, copied in `vendor/vespi-kernel` and checked against its SOURCE.md (per-module digests and commit). The reference capture is `docs/suite-2026-10-11.txt`; every name below comes from that file.
 
 #### Kernel identity
 
@@ -95,7 +95,7 @@ Esta página separa las observaciones registradas de lo que permiten concluir. E
 
 ### Suite actual
 
-La corrida suministrada del 2026-10-11 informa **24 pruebas, 24 aprobadas, ninguna con otro resultado, ninguna omitida, ninguna todo, ninguna cancelada, en Node v24.15.0**. Corrió en un clon limpio con HOME vacío y sin red, con el comando `node --test test/*.test.js`. El núcleo consumido es Vespi 0.1.6, commit `95f2d614f4492056c8bb2cd951f08d1089027d4f`, copiado en `vendor/vespi-kernel` y comprobado contra su SOURCE.md (digests por módulo y commit). La captura de referencia es `docs/suite-2026-10-11.txt`; cada nombre siguiente viene de ese archivo.
+La corrida suministrada del 2026-10-11 informa **24 pruebas, 24 aprobadas, ninguna con otro resultado, ninguna omitida, ninguna todo, ninguna cancelada, en Node v24.15.0**. Corrió en un clon limpio con HOME vacío y sin red, con el comando `node --test test/*.test.js`. El núcleo consumido es Vespi 0.1.6, commit `7767daa369e464b486ddf16b08b8985e59ec107d`, copiado en `vendor/vespi-kernel` y comprobado contra su SOURCE.md (digests por módulo y commit). La captura de referencia es `docs/suite-2026-10-11.txt`; cada nombre siguiente viene de ese archivo.
 
 #### Identidad del núcleo
 
