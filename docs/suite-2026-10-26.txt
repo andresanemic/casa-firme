@@ -1,0 +1,37 @@
+Suite capture — casa-firme — 2026-10-26
+Command: node --test test/*.test.js (clone of commit ac77ba4 with the kernel 0.1.8 re-pin applied, empty HOME)
+Node: v24.22.1 · Kernel: Vespi 0.1.8, commit 13dbe24310dab2a12eee26ad51dfdfddbff5458b (tag v0.1.8-kernel), copied in vendor/vespi-kernel
+Summary: tests 24 pass 24 fail 0 cancelled 0 skipped 0 todo 0 
+
+✔ la copia vendorizada existe y trae cada módulo que el kit declara (3.5959ms)
+✔ cada módulo calza con el digest que el kit declara (171.5329ms)
+✔ los encabezados de procedencia declaran el commit del corte (4.2945ms)
+✔ la copia se carga desde vendor, no desde el árbol de desarrollo ni del HOME (9.5787ms)
+✔ ROJO 1 — un acta sin quorum no otorga: la postulación no avanza (37.3864ms)
+✔ ROJO 2 — un miembro no puede autorizar más allá de lo que la asamblea otorgó (48.4378ms)
+✔ ROJO 3 — la familia puede firmar, pero su firma no es la de la asamblea (29.9102ms)
+✔ ROJO 4 — una donación sin aportante no se puede usar: el dinero no llega a ninguna parte (54.1136ms)
+✔ ROJO 5 — registrar dos veces la misma donación no la duplica: devuelve el mismo recibo (56.6971ms)
+✔ ROJO 6 — nadie construye sin el acta que lo autoriza (41.1499ms)
+✔ CONTROL — una postulación que DEBE poder aprobarse se aprueba (71.5121ms)
+✔ el presupuesto del permiso se gasta y se acumula entre usos (62.7668ms)
+✔ pasada la fecha del reloj, el permiso no revive solo (38.9996ms)
+✔ un permiso no viaja a otra vivienda (40.6118ms)
+✔ el dato de una familia no se puede escribir: el esquema lo rechaza (17.844ms)
+✔ la auditoría de la cadena no encuentra dato de familia, y se demuestra que no está vacía (23.8383ms)
+✔ lo que se publicaría no trae dato de familia, y la pantalla lo dice (23.0146ms)
+✔ reescribir una línea vieja rompe la cadena y la auditoría lo ve (42.9539ms)
+✔ el recibo va sellado y uno editado a mano no verifica (23.2726ms)
+✔ un verificador que solo cree al ejecutor no puede producir un verde en la auditoría (60.4734ms)
+✔ el donante recorre su dinero desde la postulación hasta el uso, sin intermediarios (67.1782ms)
+✔ nada del recorrido nombra a una organización real (178.7978ms)
+✔ el recorrido completo corre de punta a punta y su registro se puede leer sin Casa Firme (122.0152ms)
+✔ la línea de comandos hace lo que dice y devuelve el código que corresponde (282.8042ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 24
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1559.8783

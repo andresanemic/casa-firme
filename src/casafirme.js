@@ -214,7 +214,7 @@ class CasaFirme {
     if (!texto(spec.huellaCatastro)) throw new Error('una prueba de catastro necesita la huella del catastro');
     return {
       simulado: true,
-      declara: 'El kernel 0.1.6 incluye un verificador de conocimiento cero, pero Casa Firme no lo integra: lo que corre aquí es SIMULADO, y cada pantalla lo dice.',
+      declara: 'El kernel 0.1.8 incluye un verificador de conocimiento cero, pero Casa Firme no lo integra: lo que corre aquí es SIMULADO, y cada pantalla lo dice.',
       afirma: 'que esta familia está en el catastro vigente',
       prueba: 'la simulación no prueba nada de eso: deriva un alias y lo deja anotado',
       huellaCatastro: spec.huellaCatastro,
@@ -275,7 +275,7 @@ class CasaFirme {
         alias: spec.alias,
         huella_catastro: spec.huellaCatastro,
         catastro: spec.catastro || 'catastro-minvu-2024-06',
-        prueba: 'simulada: Casa Firme no integra el verificador de conocimiento cero del kernel 0.1.6',
+        prueba: 'simulada: Casa Firme no integra el verificador de conocimiento cero del kernel 0.1.8',
         en: iso(),
       }),
       checks: () => {

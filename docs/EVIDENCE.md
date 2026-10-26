@@ -1,5 +1,7 @@
 # Evidence / Evidencia
 
+> **2026-10-26:** re-pinned to Vespi kernel 0.1.8 (release `v0.1.8-kernel`, commit `13dbe24`); [`suite-2026-10-26.txt`](./suite-2026-10-26.txt) reports 24 of 24 pass. The records below describe the 2026-10-11 capture. · **26 oct. 2026:** nueva fijación al kernel de Vespi 0.1.8; 24 de 24 aprobadas. Los registros de abajo describen la captura del 2026-10-11.
+
 ## English
 
 This page separates recorded observations from what they establish. The public repository contains this report and the application source, but not the full working transcript; the suite can be rerun from this checkout with `npm test`.

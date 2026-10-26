@@ -162,7 +162,7 @@ async function main(dir, { escribe = true } = {}) {
   linea(`  anclaje: ${publicado.visibilidad.anclaje}`);
 
   titulo('17. Lo que este recorrido NO demuestra');
-  linea('  - NO demuestra pertenencia al catastro. La prueba de conocimiento cero está SIMULADA: el kernel 0.1.6 incluye un verificador, pero Casa Firme no lo integra.');
+  linea('  - NO demuestra pertenencia al catastro. La prueba de conocimiento cero está SIMULADA: el kernel 0.1.8 incluye un verificador, pero Casa Firme no lo integra.');
   linea('  - NO cumple ninguna norma. No hay ancla normativa: el texto primario no se leyó en esta tanda, así que aquí no se nombra ninguna.');
   linea('  - NO hay hash en testnet, ni recibo en explorador, ni blockchain. El anclaje quedó en `pending` a propósito y esto no está verificado afuera.');
   linea('  - NO hay afiliación con ninguna fundación, municipalidad, laboratorio u organización real. Todos los actores son de ejemplo.');

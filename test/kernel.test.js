@@ -2,9 +2,9 @@
 
 // El corte del núcleo, verificado por bytes.
 //
-// Casa Firme consume la copia vendorizada del kernel **0.1.6** que vive en
+// Casa Firme consume la copia vendorizada del kernel **0.1.8** que vive en
 // `vendor/vespi-kernel/`, no el árbol de desarrollo: esa copia está fijada al corte
-// 39d45733839d0a05f60248fc6e5b81c892c464f8 y sus bytes están declarados, módulo por
+// 13dbe24310dab2a12eee26ad51dfdfddbff5458b y sus bytes están declarados, módulo por
 // módulo, en el `SOURCE.md` que viaja con ella. Aquí se hacen las comprobaciones que el
 // comentario solo no paga:
 //
@@ -37,7 +37,7 @@ const DIR = path.join(__dirname, '..', 'vendor', 'vespi-kernel');
 
 // El commit del corte. Vive aquí porque es la afirmación que esta suite hace: que la copia
 // es este corte y no otro.
-const COMMIT = '39d45733839d0a05f60248fc6e5b81c892c464f8';
+const COMMIT = '13dbe24310dab2a12eee26ad51dfdfddbff5458b';
 
 // Lo que el kit declara. Se lee de `SOURCE.md` de la propia copia, no de una constante
 // escrita aquí: una constante sería una segunda fuente de verdad que se puede desincronizar

@@ -9,8 +9,8 @@
   <a href="./docs/EVIDENCE.md"><img src="https://img.shields.io/badge/suite-24_of_24_pass-D7B698?style=for-the-badge&labelColor=07111A" alt="Suite: 24 of 24 tests pass"></a>
   <a href="./docs/HOW_IT_WORKS.md"><img src="https://img.shields.io/badge/agreement-written_before_code-E0C170?style=for-the-badge&labelColor=07111A" alt="Agreement written before code"></a>
   <a href="https://github.com/andresanemic/vespi"><img src="https://img.shields.io/badge/built_with-Vespi_%C2%B7_Lore_Plugin-E0C170?style=for-the-badge&labelColor=07111A" alt="Built with Vespi and Lore Plugin"></a>
-  <a href="./data/traffic/source-2026-10-13.json"><img src="https://img.shields.io/badge/clones-263_in_14_days-E0C170?style=for-the-badge&labelColor=07111A" alt="casa-firme: 263 GitHub clone events, 2026-09-29 to 2026-10-12 UTC"></a>
-  <a href="https://github.com/andresanemic/vespi/tree/39d45733839d0a05f60248fc6e5b81c892c464f8"><img src="https://img.shields.io/badge/kernel-0.1.6_pin-39d4573?style=for-the-badge&labelColor=07111A&color=E0C170" alt="Kernel: 0.1.6 source pin (commit 39d4573)"></a>
+  <a href="./data/traffic/clones.json"><img src="https://img.shields.io/badge/clones-326_in_27_days-E0C170?style=for-the-badge&labelColor=07111A" alt="casa-firme: 326 GitHub clone events, 2026-09-29 to 2026-10-25 UTC (clones, not unique people)"></a>
+  <a href="https://github.com/andresanemic/vespi/tree/13dbe24310dab2a12eee26ad51dfdfddbff5458b"><img src="https://img.shields.io/badge/kernel-0.1.8_pin-13dbe24?style=for-the-badge&labelColor=07111A&color=E0C170" alt="Kernel: 0.1.8 source pin (commit 13dbe24)"></a>
 </p>
 
 
@@ -28,6 +28,8 @@ These projects remain separate, runnable repositories. / Estos proyectos siguen 
 <summary><b>Read in English</b></summary>
 
 <a id="english"></a>
+
+> **Kernel re-pin, 26 Oct 2026.** This project now vendors Vespi kernel **0.1.8** (release `v0.1.8-kernel`, commit `13dbe24`). Suite: 24 of 24 pass in [`docs/suite-2026-10-26.txt`](./docs/suite-2026-10-26.txt). Mentions of 0.1.6 below describe the 2026-10-11 capture.
 
 **Authority should be visible before a home is built.**
 
@@ -141,7 +143,7 @@ The 2026-10-03 capture was red under the old 0.1.3 kernel cut; the project has s
 
 Casa Firme consumes the Vespi kernel for bounded authority, named human approvals, operation receipts, verification and continuity from receipts. Its own layer supplies the housing-committee assembly as the authority source, quorum and member rules, the fictional donation path, the local chained record and the closed family-field schema. The kernel is pinned and checked by digest; Casa Firme does not modify it. The project uses kernel **0.1.6** (commit `39d4573`), vendored and digest-checked in the 2026-10-11 run.
 
-**What this relationship means.** The project was built with Lore Plugin's method (its agreement and criterion live in the project, in `acuerdo.md` and `lore/`), and its operations, authority and receipts run on the Vespi kernel 0.1.6, in the pinned copy prepared for Lore Plugin 2.5.2 (`skills/vespi/core/kernel`). That copy sits in the project as `vendor/vespi-kernel` and the suite verifies it against its `SOURCE.md`. Lore Plugin does not run inside the project. This project does not use the kernel's newer capabilities (Stellar pubnet anchors, live x402 settlement, the ZK verifier, emergency access); it exercises the core of operations, authority and receipts.
+**What this relationship means.** The project was built with Lore Plugin's method (its agreement and criterion live in the project, in `acuerdo.md` and `lore/`), and its operations, authority and receipts run on the Vespi kernel 0.1.8, in the pinned copy of the `v0.1.8-kernel` release (`vendor/vespi-kernel`, commit `13dbe24`). That copy sits in the project as `vendor/vespi-kernel` and the suite verifies it against its `SOURCE.md`. Lore Plugin does not run inside the project. This project does not use the kernel's newer capabilities (Stellar pubnet anchors, live x402 settlement, the ZK verifier, emergency access); it exercises the core of operations, authority and receipts.
 
 Lore Plugin provides the project context and routing through which a host can load the right criteria. It does not provide the housing model. Details about which capabilities this project uses, and which are only declared or absent, are in [How it works](./docs/HOW_IT_WORKS.md#what-the-kernel-contributes).
 
@@ -174,6 +176,8 @@ The source is in this repository: run `npm test` on Node 24 from the project roo
 <summary><b>Leer en español</b></summary>
 
 <a id="espanol"></a>
+
+> **Nueva fijación del kernel, 26 oct. 2026.** Este proyecto ahora vendoriza el kernel de Vespi **0.1.8** (release `v0.1.8-kernel`, commit `13dbe24`). Suite: 24 de 24 aprobadas en [`docs/suite-2026-10-26.txt`](./docs/suite-2026-10-26.txt). Las menciones a 0.1.6 más abajo describen la captura del 2026-10-11.
 
 <p align="center"><b>Funcionó.</b></p>
 
@@ -299,7 +303,7 @@ La captura del 2026-10-03 quedó en rojo con el corte viejo 0.1.3 del núcleo; e
 
 Casa Firme consume el núcleo de Vespi para autoridad acotada, aprobaciones humanas identificadas, recibos de operación, verificación y continuidad desde recibos. Su propia capa aporta la asamblea del comité de vivienda como origen de autoridad, las reglas de quorum y membresía, el recorrido ficticio de la donación, el registro local encadenado y el esquema cerrado de datos familiares. El núcleo se fija y comprueba por digest; Casa Firme no lo modifica. El proyecto usa el kernel **0.1.6** (commit `39d4573`), con copia vendorizada y digests comprobados en la corrida del 2026-10-11.
 
-**Qué significa esta relación.** El proyecto se construyó con el método de Lore Plugin (su acuerdo y su criterio viven en el proyecto, en `acuerdo.md` y `lore/`), y sus operaciones, autoridad y recibos corren sobre el kernel de Vespi 0.1.6, en la copia fijada para Lore Plugin 2.5.2 (`skills/vespi/core/kernel`). Esa copia está en el proyecto como `vendor/vespi-kernel` y la suite la verifica contra su `SOURCE.md`. Lore Plugin no corre dentro del proyecto. Este proyecto no usa las capacidades nuevas del kernel (anclas Stellar pubnet, liquidación x402 en vivo, el verificador ZK, el acceso de emergencia); ejerce el núcleo de operaciones, autoridad y recibos.
+**Qué significa esta relación.** El proyecto se construyó con el método de Lore Plugin (su acuerdo y su criterio viven en el proyecto, en `acuerdo.md` y `lore/`), y sus operaciones, autoridad y recibos corren sobre el kernel de Vespi 0.1.8, en la copia fijada del release `v0.1.8-kernel` (`vendor/vespi-kernel`, commit `13dbe24`). Esa copia está en el proyecto como `vendor/vespi-kernel` y la suite la verifica contra su `SOURCE.md`. Lore Plugin no corre dentro del proyecto. Este proyecto no usa las capacidades nuevas del kernel (anclas Stellar pubnet, liquidación x402 en vivo, el verificador ZK, el acceso de emergencia); ejerce el núcleo de operaciones, autoridad y recibos.
 
 Lore Plugin aporta el contexto y el enrutamiento del proyecto para que el host pueda cargar el criterio correspondiente. No aporta el modelo de vivienda. [Cómo funciona](./docs/HOW_IT_WORKS.md#que-aporta-el-nucleo) explica qué capacidades se usan, cuáles solo se declaran y cuáles están ausentes.
 
